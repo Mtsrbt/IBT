@@ -1,0 +1,35 @@
+
+\chapter{Implementácia}
+
+\section{Automat $M_2$}
+
+Regulovaný zásobníkový automat $M_2 = (Q_2, \Sigma_2, \Gamma_2, R_2, s, S, F)$ regulovaný stavovou gramatikou $G_1$ je definovaný nasledovne: 
+
+
+\begin{flushleft}
+\begin{itemize}
+\item $Q_2$ = $\{s, q_1, q_2, q_3, q_4, q_5, q_6, q_7, q_8, q_9, f\}$,
+\item $\Sigma_2$ = $\{A,C,G,T,U,\#\}$,
+\item $\Gamma_2$ = $\{S,A,C,G,T,U,\#\}$
+\item $R_2 =$ \begin{tabular}{{ p{11em} p{11em} p{11em} }} 
+\vspace{-1,8em}\hspace{2em}$ \{1.sA \to Aq_1,$ &\vspace{-1,8em}$ 2.sC \to Cq_2,$ &\vspace{-1,8em} $ 3.sT \to Uq_2, $\\
+\vspace{-1,8em}\hspace{2.5em}$4.sG \to Gq_2,$ &\vspace{-1,8em} $5.sU \to Uq_2, $ &\vspace{-1,8em} $ 6.Aq_1T \to AUq_4,$ \\
+\vspace{-1,8em}\hspace{2.5em}$7.Aq_1U \to AUq_4,$ &\vspace{-1,8em} $ 8.Aq_1C \to ACq_3, $& \vspace{-1,8em} $9.Aq_1A \to AAq_3,$ \\
+\vspace{-1,8em}\hspace{2.5em}$10.Aq_1G \to AGq_3, $ &\vspace{-1,8em} $ 11.q_2A \to Aq_3, $&\vspace{-1,8em}$12.q_2C \to Cq_3,$\\ 
+\vspace{-1,8em}\hspace{2.5em}$13.q_2T \to Uq_3,$&\vspace{-1,8em}$ 14.q_2U \to Uq_3, $&\vspace{-1,8em}$15.q_2G \to Gq_3,$\\
+\vspace{-1,8em}\hspace{2.5em}$16.q_3A \to As,$&\vspace{-1,8em} $ 17.q_3C \to Cs,$ &\vspace{-1,8em}$ 18.q_3T \to Us, $\\
+\vspace{-1,8em}\hspace{2.5em}$19.q_3U \to Us,$&\vspace{-1,8em}$ 20.q_3G \to Gs,$&\vspace{-1,8em} $ 21.Uq_4G \to UGq_5,$\\
+\vspace{-1,8em}\hspace{2.5em}$22.Uq_4A \to UAs,$&\vspace{-1,8em}$ 23.Uq_4C \to UCs,$&\vspace{-1,8em}$ 24.Uq_4T \to UUs, $\\
+\vspace{-1,8em}\hspace{2.5em}$ 25.Uq_4U \to UUs,$ &\vspace{-1,8em}$26.Gq_5T \to GUq_6,$&\vspace{-1,8em}$ 26.Gq_5U \to GUq_6, $\\
+\vspace{-1,8em}\hspace{2.5em}$27.Gq_5A \to GAq_7,$&\vspace{-1,8em}$ 28.Gq_5C \to GCq_7,$ &\vspace{-1,8em}$29.Gq_5G \to GGq_7,$\\
+\vspace{-1,8em}\hspace{2.5em}$30.Uq_6A \to UAq_8,$&\vspace{-1,8em}$ 31.Aq_6G \to UGq_8,$&\vspace{-1,8em}$ 32.Uq_6T \to UUq_9,$\\
+\vspace{-1,8em}\hspace{2.5em}$33.Uq_6C \to UCq_9,$&\vspace{-1,8em}$ 34.Uq_6U \to UUq_9, $&\vspace{-1,8em}$35.q_7A \to Aq_9,$\\
+\vspace{-1,8em}\hspace{2.5em}$ 36.q_7C \to Cq_9,$ &\vspace{-1,8em}$37.q_7T \to Uq_9,$&\vspace{-1,8em}$ 38.q_7U \to Uq_9, $\\
+\vspace{-1,8em}\hspace{2.5em}$39.q_7G \to Gq_9,$&\vspace{-1,8em}$ 40.Aq_8A \to AAf,$ &\vspace{-1,8em}$41.Aq_8G \to AGf,$\\
+\vspace{-1,8em}\hspace{2.5em}$ 42.Gq_8A \to GAf, $&\vspace{-1,8em}$43.Aq_8T \to AUq_5,$&\vspace{-1,8em}$ 44.Aq_8C \to ACq_5,$\\
+\vspace{-1,8em}\hspace{2.5em}$45.Aq_8U \to AUq_5,$&\vspace{-1,8em}$ 46.Gq_8G \to GGq_5,$&\vspace{-1,8em}$ 47.Gq_8T \to GUq_5, $\\
+\vspace{-1,8em}\hspace{2.5em}$ 48.Gq_8C \to GCq_5,$&\vspace{-1,8em} $49.Gq_8U \to GUq_5,\}$
+\end{tabular}
+\item $s \in Q_1$ je počiatočný stav a $f \in Q_1$ je koncový stav.
+\end{itemize}
+\end{flushleft}

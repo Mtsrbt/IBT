@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: xarbet00.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+The style file: bib-styles/Arbet/skplain.bst
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: xarbet00-20-literatura-bibliography.bib
+Warning--empty edition in Automata2
+Warning--empty year in FastaID
+Warning--empty year and revised in FastaID
+You've used 9 entries,
+            3946 wiz_defined-function locations,
+            878 strings with 6405 characters,
+and the built_in function-call counts, 3259 in all, are:
+= -- 244
+> -- 88
+< -- 8
++ -- 27
+- -- 18
+* -- 145
+:= -- 448
+add.period$ -- 34
+call.type$ -- 9
+change.case$ -- 53
+chr.to.int$ -- 14
+cite$ -- 12
+duplicate$ -- 233
+empty$ -- 435
+format.name$ -- 18
+if$ -- 780
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 0
+newline$ -- 66
+num.names$ -- 18
+pop$ -- 88
+preamble$ -- 1
+purify$ -- 27
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 116
+swap$ -- 43
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 3
+while$ -- 25
+width$ -- 10
+write$ -- 118
+(There were 3 warnings)
